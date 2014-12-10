@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomDevice xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Custom Device.xsd">
+<XSDVersion Major="2010" Minor="0" Fix="0" Build="0" />
+  <AddMenu>
+    <eng>NI-Switch Relay</eng>
+    <loc>NI-Switch Relay</loc>
+  </AddMenu>
+  <Version>1.0.1</Version>
+  <Type>Asynchronous</Type>
+  <MaxOccurrence>2474</MaxOccurrence>
+  <MainPageGUID>CED86522-F215-F669-049D-9C7281CEDE00</MainPageGUID>
+  <InitializationVI>
+    <Type>VI</Type>
+    <Item2Launch>
+      <Type>To Common Doc Dir</Type>
+		<Path>Custom Devices\NI-Switch Relay\NI-Switch Relay Configuration.llb\NI-Switch Initialization VI.vi</Path>
+    </Item2Launch>
+  </InitializationVI>
+  <CustomDeviceVI>
+		<SourceDistribution>
+			<Source>
+				<SupportedTarget>PharlapWindows</SupportedTarget>
+				<Source>
+					<Type>To Common Doc Dir</Type>
+					<Path>Custom Devices\NI-Switch Relay\NI-Switch Relay Engine.llb\NI-Switch RT Driver VI.vi</Path>
+				</Source>
+				<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\NI-Switch Relay\NI-Switch Relay Engine.llb\NI-Switch RT Driver VI.vi</RealTimeSystemDestination>
+			</Source>
+		</SourceDistribution>
+	</CustomDeviceVI>
+  <Dependencies />
+  <Pages>
+    <Page>
+      <Name>
+        <eng>NI-Switch Relay</eng>
+        <loc>NI-Switch Relay</loc>
+      </Name>
+      <GUID>CED86522-F215-F669-049D-9C7281CEDE00</GUID>
+      <Glyph>
+			<Type>To Common Doc Dir</Type>
+			<Path>Custom Devices\NI-Switch Relay\Glyphs\Device2.png</Path>
+		</Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+		<Path>Custom Devices\NI-Switch Relay\NI-Switch Relay Configuration.llb\NI-Switch Main Page.vi</Path>
+      </Item2Launch>
+    </Page>
+    
+    <Page>
+      <Name>
+        <eng>Sub Page</eng>
+        <loc>Sub Page</loc>
+      </Name>
+      <GUID>3D447138-A707-99DE-4D8F-561BC6A270C2</GUID>
+      <Glyph>
+			<Type>To Common Doc Dir</Type>
+			<Path>Custom Devices\NI-Switch Relay\Glyphs\Switch.png</Path>
+		</Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+		<Path>Custom Devices\NI-Switch Relay\NI-Switch Relay Configuration.llb\NI-Switch Sub Page.vi</Path>
+      </Item2Launch>
+    </Page>
+    
+    <Page>
+      <Name>
+        <eng>NI-Switch Channel</eng>
+        <loc>NI-Switch Channel</loc>
+      </Name>
+      <GUID>6DEB9409-FEEE-79F6-ED3C-247B42A52503</GUID>
+      <Glyph>
+			<Type>To Common Doc Dir</Type>
+			<Path>Custom Devices\NI-Switch Relay\Glyphs\Switch.png</Path>
+		</Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+		<Path>Custom Devices\NI-Switch Relay\NI-Switch Relay Configuration.llb\NI-Switch Channel Page.vi</Path>
+      </Item2Launch>
+    </Page>
+    
+  </Pages>
+  <CustomXML>
+    <Dummy></Dummy>
+  </CustomXML>
+</CustomDevice>
