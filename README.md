@@ -1,3 +1,5 @@
+**NOTICE: This repository has been archived, and will no longer be maintained or accept pull requests.**
+
 ## NI-Switch Relay Custom Device ##
 
 **NI-Switch Relay Custom Device** allows users to use NI Switch relay devices inside NI VeriStand. These are commonly used to switch power and ground, but could be used to switch anything through a relay.
