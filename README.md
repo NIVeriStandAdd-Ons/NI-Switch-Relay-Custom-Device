@@ -1,4 +1,5 @@
 **NOTICE: This repository has been archived, and will no longer be maintained or accept pull requests.**
+This custom device is very low-level and does little more than expose relays as channels.  As such, it has worked well.  If no higher level features are needed, it might still be a good fit.
 
 ## NI-Switch Relay Custom Device ##
 
